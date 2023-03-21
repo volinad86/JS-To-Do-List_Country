@@ -76,3 +76,23 @@ body{
         box-shadow: 0 5px 10px rgba(255, 127, 80, .8);
         transform: scale(1.05);
     }
+
+    .toDoAdded{
+    background-color: coral;
+    opacity: 0.8;
+    list-style-type: none;
+    height: 60px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    position: relative;
+    z-index: 2;
+    }
+    
+    .toDoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
